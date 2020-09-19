@@ -11,7 +11,9 @@ $(function() {
     close.click(function() {
         menu.toggleClass('active-menu');
     });
-
+    navLink.click(function() {
+        menu.toggleClass('active-menu');
+    });
 
 });
 
